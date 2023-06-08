@@ -1,6 +1,6 @@
 # Frontend application - Employee manage
 
-Deploy - [employee manage.netlify.app](https://employee-manage.netlify.app/)
+Deploy - [employee-manage.netlify.app](https://employee-manage.netlify.app/)
 
 ## Technologies used
 
