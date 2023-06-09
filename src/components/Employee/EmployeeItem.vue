@@ -52,6 +52,10 @@ export default defineComponent({
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 
+    @media(max-width: 768px) {
+      border-bottom: 1px solid #cccccc82;
+    }
+
     &__title {
       font-weight: 500;
       font-size: 16px;
@@ -73,6 +77,8 @@ export default defineComponent({
 
       @media(max-width: 768px) {
         gap: 8px;
+        flex-direction: column;
+        align-items: flex-start;
       }
 
       button {
@@ -85,6 +91,10 @@ export default defineComponent({
 
       &:hover {
         border-color: #01A7FD;
+      }
+
+      @media(max-width: 768px) {
+        margin-bottom: 16px;
       }
     }
     }

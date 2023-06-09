@@ -62,6 +62,11 @@ export default defineComponent({
   color: #111;
   transition: background .2s ease;
 
+  @media(max-width: 768px) {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
   &:hover {
     background: #cccccc9e;
   }
