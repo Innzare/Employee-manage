@@ -63,7 +63,7 @@ export default defineComponent({
         const { name, surname, age, experience, address } = item;
 
         const ageFormatted = getAgeFormatted(age);
-        const experienceFormatted = getAgeFormatted(age);
+        const experienceFormatted = getAgeFormatted(experience);
         const employeeName = name !== '' ? name : 'Имя не указано';
         const employeeSurname = surname !== '' ? surname : 'Фамилия не указана';
         const employeeAge = age !== '' ? ageFormatted : 'Возраст не указан';
