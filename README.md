@@ -1,6 +1,6 @@
 # Frontend application - Employee manage
 
-Deploy - [employee-manage.netlify.app](https://employee-manage.netlify.app/)
+Deploy - [innzare-employee.netlify.app](https://innzare-employee.netlify.app/)
 
 ## Technologies used
 

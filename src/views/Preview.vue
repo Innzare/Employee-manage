@@ -129,6 +129,7 @@ export default defineComponent({
     }
 
     &__employee-wrapper {
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       gap: 16px;
